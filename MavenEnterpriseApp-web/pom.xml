@@ -10,7 +10,7 @@
 	</parent>
 
 	<groupId>com.mt</groupId>
-	<artifactId>maven-enterprise-application</artifactId>
+	<artifactId>MavenEnterpriseApp-web</artifactId>
 	<packaging>war</packaging>
 	<version>1.0</version>
 
@@ -107,7 +107,7 @@
 	
 
 	<build>
-		<finalName>MavenEnterpriseApplication</finalName>
+		<finalName>MavenEnterpriseApp-web</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
