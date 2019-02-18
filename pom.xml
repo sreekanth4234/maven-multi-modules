@@ -11,4 +11,17 @@
     <module>MavenEnterpriseApp-ear</module>
     <module>MavenEnterpriseApp-web</module>
   </modules>
+  <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Releases Nexus Repository</name>
+	      <url>http://13.232.20.56:8081/repository/Maven-Release-version/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Snapshot Nexus Repository </name>
+	      <url>http://13.232.20.56:8081/repository/Maven-Snapshot-version/</url>
+	    </snapshotRepository>
+	</distributionManagement>
+	
 </project>
